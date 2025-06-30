@@ -1,82 +1,145 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Mapa Mental - Tema de Pesquisa</title>
-    <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.3"></script>
-  </head>
-  <body>
-    <svg id="markmap" style="width: 100%; height: 100vh;"></svg>
-    <script type="text/markdown">
-# Como Escolher e Delimitar um Tema de Pesquisa Relevante (Prof. Kaio Germano)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Mental - Tema de Pesquisa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f9ff;
+      padding: 20px;
+    }
 
-## 1. O Projeto de Pesquisa
-- Conceito: "Mapa estruturante" das etapas da pesquisa
-- Funções Essenciais:
-  - Documenta ações do estudo
-  - Estrutura etapas de escrita e aplicabilidade
-  - Expõe reflexões e decisões do pesquisador
-  - Descreve passos sistematicamente para seguir um padrão
-  - Aponta viabilidade técnica e prática
-  - Garante consonância entre tema, problema, metodologia e objetivos
-- Relevância: Crucial para Mestrado e Doutorado
+    .titulo {
+      text-align: center;
+      background-color: #0077b6;
+      color: white;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
 
-## 2. O Problema de Pesquisa
-- Natureza da Pesquisa: Criar problemas e buscar respostas
-- Origem: Concepção do pesquisador e tema central
-- Impacto: Define método, objetivos e coleta de dados
-- Cuidado com IA:
-  - Evitar uso excessivo para escrita completa
-  - Pode gerar vícios e pesquisas de baixa qualidade científica
-- Formulação: Deve ser clara, precisa e acessível
-- "Parcialmente Resolvido": Um problema bem formulado leva a hipóteses claras
+    .bloco {
+      background: #caf0f8;
+      border-left: 5px solid #00b4d8;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
 
-## 3. Escolha e Delimitação do Tema
-- Definição do Tema: Assunto amplo que exige mais definição e clareza
-- Processo de Escolha:
-  - Início: Partir de uma ideia geral
-  - Desenvolvimento: Identificar subtópicos/subtemas
-  - Finalização: Elaborar a temática abrangente
-- Delimitação do Tema:
-  - O que é: Selecionar um tópico específico do tema para focar
-  - Benefícios: Clareza, precisão, concretude; facilita o trabalho; permite aprofundamento
-- Dicas para o Tema/Título:
-  - **Ser breve e direto** (máx. 12 palavras idealmente)
-  - **Ser atraente e "comercializável"**
-  - Incluir foco e tópico do estudo
-  - Evitar linguagem complexa ou erudita
-  - Permitir flexibilidade para alterações no projeto
-  - **Ser relevante, impactante e aplicável** (interessar à sociedade)
-  - Evitar repetição de pesquisas (buscar novos aspectos)
-  - Ter **interesse pessoal do pesquisador** (evitar desmotivação)
-  - Ter **interesse acadêmico** (evitar assuntos "fáceis" ou sem profundidade)
-- Fontes para Ideias de Tema:
-  - Autores (clássicos/contemporâneos)
-  - Periódicos científicos
-  - Livros
-  - Conceitos-chave
+    .bloco h2 {
+      margin-top: 0;
+      color: #0077b6;
+      font-size: 18px;
+    }
 
-## 4. Objetivos de Pesquisa
-- Função: Nortear a busca por resultados para o problema
-- Tipos:
-  - **Objetivo Geral:** Visão abrangente do tema, ligada ao significado do trabalho  
-    _(verbos como "avaliar", "examinar", "observar")_
-  - **Objetivos Específicos:** Aplicações claras e objetivas dos resultados  
-    _(ex: "determinar perfil sociodemográfico")_
-- Abordagens:
-  - **Qualitativa:** Descrição e observação de fenômenos, participantes e local
-  - **Quantitativa:** Relação entre variáveis, uso de números e estatística
-- Consistência: Devem estar em consonância com o tema e o problema
+    .subtopico {
+      margin-left: 20px;
+    }
 
-## 5. Qualis CAPES (Contexto de Qualidade da Pesquisa)
-- Definição: Sistema de avaliação de periódicos científicos no Brasil
-- Órgão: Ligado ao Ministério da Educação e Ciência e Tecnologia (Plataforma Sucupira)
-- Periodicidade: Avaliação quadrienal (a cada 4 anos)
-- Classificação: Revistas de C a A1 (A1 = mais alta qualidade)
-- Uso Atual:
-  - Percentis da Scopus (Dex Docs)
-  - Citações do Google Acadêmico (fator de impacto)
-- Importância: Revistas com classificação A são preferíveis para estudos de revisão sistemática
-    </script>
-  </body>
+    .subtopico strong {
+      color: #023e8a;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="titulo">Mapa Mental: Como Escolher e Delimitar um Tema de Pesquisa Relevante<br>(Prof. Kaio Germano)</div>
+
+  <div class="bloco">
+    <h2>1. O Projeto de Pesquisa</h2>
+    <ul>
+      <li><strong>Conceito:</strong> "Mapa estruturante" das etapas da pesquisa</li>
+      <li><strong>Funções Essenciais:</strong>
+        <ul>
+          <li>Documenta ações do estudo</li>
+          <li>Estrutura etapas de escrita e aplicabilidade</li>
+          <li>Expõe reflexões e decisões do pesquisador</li>
+          <li>Descreve passos sistematicamente</li>
+          <li>Aponta viabilidade técnica e prática</li>
+          <li>Garante consonância entre tema, problema, metodologia e objetivos</li>
+        </ul>
+      </li>
+      <li><strong>Relevância:</strong> Crucial para Mestrado e Doutorado</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>2. O Problema de Pesquisa</h2>
+    <ul>
+      <li><strong>Natureza:</strong> Criar problemas e buscar respostas</li>
+      <li><strong>Origem:</strong> Tema central do pesquisador</li>
+      <li><strong>Impacto:</strong> Define método, objetivos e coleta de dados</li>
+      <li><strong>Cuidado com IA:</strong> Evitar uso excessivo — gera vícios e baixa qualidade</li>
+      <li><strong>Formulação:</strong> Clara, precisa e acessível</li>
+      <li><strong>Problemas bem formulados:</strong> Levam a hipóteses claras</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>3. Escolha e Delimitação do Tema</h2>
+    <ul>
+      <li><strong>Definição:</strong> Assunto amplo que precisa de clareza</li>
+      <li><strong>Processo de Escolha:</strong>
+        <ul>
+          <li>Início: Ideia geral</li>
+          <li>Desenvolvimento: Subtemas</li>
+          <li>Finalização: Temática abrangente</li>
+        </ul>
+      </li>
+      <li><strong>Delimitação:</strong> Tópico específico → facilita aprofundamento</li>
+      <li><strong>Dicas para o Tema/Título:</strong>
+        <ul>
+          <li>Breve e direto (máx. 12 palavras)</li>
+          <li>Atraente e "comercializável"</li>
+          <li>Com foco e tópico do estudo</li>
+          <li>Evitar linguagem erudita</li>
+          <li>Permitir flexibilidade</li>
+          <li>Relevante, impactante, aplicável</li>
+          <li>Evitar repetição de pesquisas</li>
+          <li>Ter interesse pessoal e acadêmico</li>
+        </ul>
+      </li>
+      <li><strong>Fontes:</strong> Autores, periódicos, livros, conceitos-chave</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>4. Objetivos de Pesquisa</h2>
+    <ul>
+      <li><strong>Função:</strong> Guiar a busca por respostas</li>
+      <li><strong>Tipos:</strong>
+        <ul>
+          <li><strong>Geral:</strong> Visão ampla (avaliar, examinar, observar)</li>
+          <li><strong>Específicos:</strong> Resultados concretos (ex: determinar perfil)</li>
+        </ul>
+      </li>
+      <li><strong>Abordagens:</strong>
+        <ul>
+          <li><strong>Qualitativa:</strong> Observação de fenômenos</li>
+          <li><strong>Quantitativa:</strong> Números, estatística, variáveis</li>
+        </ul>
+      </li>
+      <li><strong>Consistência:</strong> Em consonância com tema e problema</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h2>5. QUALIS CAPES</h2>
+    <ul>
+      <li><strong>Definição:</strong> Sistema de avaliação de periódicos</li>
+      <li><strong>Órgão:</strong> Ministério da Educação (Plataforma Sucupira)</li>
+      <li><strong>Periodicidade:</strong> Avaliação a cada 4 anos</li>
+      <li><strong>Classificação:</strong> De C a A1 (A1 = excelência)</li>
+      <li><strong>Uso Atual:</strong> Percentis Scopus + citações Google Acadêmico</li>
+      <li><strong>Importância:</strong> Revistas A são preferidas em revisões sistemáticas</li>
+    </ul>
+  </div>
+
+</body>
 </html>
